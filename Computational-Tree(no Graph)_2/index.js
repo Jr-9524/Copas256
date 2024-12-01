@@ -47,5 +47,3 @@ function test() {
             `The string "${input}" is not accepted.\nTransitions:\n${transitionLog.join('\n')}`;
     }
 }
-
-
