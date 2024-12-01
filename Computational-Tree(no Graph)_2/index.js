@@ -1,5 +1,3 @@
-// // String that ends with zero
-
 function test() {
     const transitions = {
         'q0': { '0': ['q0', 'q1'], '1': ['q0', 'q2'] }, 
@@ -14,8 +12,8 @@ function test() {
     const transitionLog = []; 
 
     for (let i = 0; i < input.length; i++) {
-        const element = input[i]; // array ng input[1][0][1] eg
-        const newStates = []; // dito mapunta yung mga states
+        const element = input[i]; 
+        const newStates = []; 
 
         for (let j = 0; j < currentStates.length; j++) {
             const state = currentStates[j]; 
